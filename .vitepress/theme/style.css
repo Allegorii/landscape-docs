@@ -1,3 +1,12 @@
 .vp-doc img {
   cursor: zoom-in;
 }
+
+/* 版本变化页: 常规变更的字号比正文小一号, 破坏性变更保持正文字号 */
+.changelog-page .vp-doc ul {
+  font-size: 0.875em;
+}
+
+.changelog-page .vp-doc .custom-block.warning {
+  font-size: 1em;
+}

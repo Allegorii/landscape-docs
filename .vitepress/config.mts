@@ -23,6 +23,7 @@ export default defineConfig({
           { text: 'Home', link: '/' },
           { text: 'Motivation', link: '/intro/motivation' },
           { text: 'Docs', link: '/intro/requirements' },
+          { text: 'Changelog', link: '/changelog/' },
         ],
         sidebar: [
           {
@@ -137,6 +138,14 @@ export default defineConfig({
               { text: 'Fails to Start on Alpine (bpffs Not Mounted)', link: '/faq/alpine-bpffs' },
             ],
           },
+          {
+            text: 'Version History',
+            items: [
+              { text: 'Landscape Router', link: '/changelog/' },
+              { text: 'landscape-kit (lkit)', link: '/changelog/lkit' },
+              { text: 'Older Releases (6+ months)', link: '/changelog/archive' },
+            ],
+          },
         ],
         editLink: {
           pattern: 'https://github.com/landscape-router/landscape-docs/edit/main/:path',
@@ -155,6 +164,7 @@ export default defineConfig({
           { text: '主页', link: '/zh/' },
           { text: '动机', link: '/zh/intro/motivation' },
           { text: '文档', link: '/zh/intro/requirements' },
+          { text: '版本变化', link: '/zh/changelog/' },
         ],
         sidebar: [
           {
@@ -285,6 +295,14 @@ export default defineConfig({
               { text: '您的连接不是私密连接', link: '/zh/faq/cert-error' },
               { text: '开启 IPv6 重启路由后, 有些图片加载缓慢', link: '/zh/faq/reboot-slow' },
               { text: 'Alpine 下无法启动 (bpffs 未挂载)', link: '/zh/faq/alpine-bpffs' },
+            ],
+          },
+          {
+            text: '版本变化',
+            items: [
+              { text: '主项目 Landscape Router', link: '/zh/changelog/' },
+              { text: '配套工具 landscape-kit (lkit)', link: '/zh/changelog/lkit' },
+              { text: '历史版本 (半年前)', link: '/zh/changelog/archive' },
             ],
           },
         ],

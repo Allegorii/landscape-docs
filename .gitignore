@@ -1,4 +1,6 @@
 /.vitepress/cache
 /.vitepress/dist
+/.vitepress/.temp
 /node_modules
 /package-lock.json
+/.workbuddy
